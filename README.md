@@ -1,6 +1,5 @@
 # Shortcut Chrome extension  💻 👋
 
----
 **Shortcut Chrome extension** adding some tools when working with shortcut
 
 ### 🧰 Tools
