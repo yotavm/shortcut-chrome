@@ -1,13 +1,11 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="flex flex-col justify-center min-w-max h-100 items-center">
-      <select className="h-12 w-full rounded-sm border border-slate-400 mb-2">
+      <select className="focus:ring-2 focus:ring-indigo-500 focus:outline-none appearance-none w-full text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-300 shadow-sm mb-2">
         <option value="1">Bug</option>
         <option value="2">Chore</option>
         <option value="3">more</option>
