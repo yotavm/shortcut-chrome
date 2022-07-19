@@ -6,5 +6,8 @@
     "content_scripts": [{
         "matches": ["http://*/*", "https://*/*"],
         "js": ["src/content/index.ts"]
-    }]
+    }],
+    "icons": {
+        "128": "128.png"
+    }
   }
