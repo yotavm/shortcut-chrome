@@ -1,7 +1,9 @@
 import { useEffect, useState, useRef } from "react";
-import { html as bug } from "./templates/bug.md";
-import { html as chore } from "./templates/chore.md";
 import { sendTemplates } from "./utils/templatesBus";
+// @ts-ignore
+import { html as bug } from "./templates/bug.md";
+// @ts-ignore
+import { html as chore } from "./templates/chore.md";
 
 const templatesMap = new Map([
   ["chore", chore],
